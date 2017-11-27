@@ -68,7 +68,7 @@
 	<span class="icon-bar"></span>
 </a>
   <div class="navbar-inner">
-    <a class="brand" href="index.html"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
+    <a class="brand" href="index.html"><img src="${images}/logo.png" alt="Bootsshop"/></a>
 		<form class="form-inline navbar-search" method="post" action="products.html" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
@@ -122,7 +122,7 @@
 		<div class="carousel-inner">
 		  <div class="item active">
 		  <div class="container">
-			<a href="register.html"><img style="width:100%" src="themes/images/carousel/1.png" alt="special offers"/></a>
+			<a href="register.html"><img style="width:100%" src="${images}/carousel/1.png" alt="special offers"/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -131,7 +131,7 @@
 		  </div>
 		  <div class="item">
 		  <div class="container">
-			<a href="register.html"><img style="width:100%" src="themes/images/carousel/2.png" alt=""/></a>
+			<a href="register.html"><img style="width:100%" src="${images}/carousel/2.png" alt=""/></a>
 				<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -140,7 +140,7 @@
 		  </div>
 		  <div class="item">
 		  <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/3.png" alt=""/></a>
+			<a href="register.html"><img src="${images}/carousel/3.png" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -150,7 +150,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/4.png" alt=""/></a>
+			<a href="register.html"><img src="${images}/carousel/4.png" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -160,7 +160,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/5.png" alt=""/></a>
+			<a href="register.html"><img src="${images}/carousel/5.png" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -169,7 +169,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/6.png" alt=""/></a>
+			<a href="register.html"><img src="${images}/carousel/6.png" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -186,7 +186,7 @@
 	<div class="row">
 <!-- Sidebar ================================================== -->
 	<div id="sidebar" class="span3">
-		<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div>
+		<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="${images}/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div>
 		<ul id="sideManu" class="nav nav-tabs nav-stacked">
 			<li class="subMenu open"><a> ELECTRONICS [230]</a>
 				<ul>
@@ -225,21 +225,21 @@
 		</ul>
 		<br/>
 		  <div class="thumbnail">
-			<img src="themes/images/products/panasonic.jpg" alt="Bootshop panasonoc New camera"/>
+			<img src="${images}/products/panasonic.jpg" alt="Bootshop panasonoc New camera"/>
 			<div class="caption">
 			  <h5>Panasonic</h5>
 				<h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 			</div>
 		  </div><br/>
 			<div class="thumbnail">
-				<img src="themes/images/products/kindle.png" title="Bootshop New Kindel" alt="Bootshop Kindel">
+				<img src="${images}/products/kindle.png" title="Bootshop New Kindel" alt="Bootshop Kindel">
 				<div class="caption">
 				  <h5>Kindle</h5>
 				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 				</div>
 			  </div><br/>
 			<div class="thumbnail">
-				<img src="themes/images/payment_methods.png" title="Bootshop Payment Methods" alt="Payments Methods">
+				<img src="${images}/payment_methods.png" title="Bootshop Payment Methods" alt="Payments Methods">
 				<div class="caption">
 				  <h5>Payment Methods</h5>
 				</div>
@@ -257,7 +257,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/b1.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/b1.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -267,7 +267,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/b2.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/b2.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -277,7 +277,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/b3.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/b3.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -287,7 +287,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/b4.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/b4.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -301,7 +301,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/5.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/5.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -311,7 +311,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/6.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/6.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -320,7 +320,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/7.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/7.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -329,47 +329,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/8.jpg" alt=""></a>
-					<div class="caption">
-					  <h5>Product name</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
-					</div>
-				  </div>
-				</li>
-			  </ul>
-			  </div>
-			   <div class="item">
-			  <ul class="thumbnails">
-				<li class="span3">
-				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/9.jpg" alt=""></a>
-					<div class="caption">
-					  <h5>Product name</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
-					</div>
-				  </div>
-				</li>
-				<li class="span3">
-				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/10.jpg" alt=""></a>
-					<div class="caption">
-					  <h5>Product name</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
-					</div>
-				  </div>
-				</li>
-				<li class="span3">
-				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/11.jpg" alt=""></a>
-					<div class="caption">
-					  <h5>Product name</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
-					</div>
-				  </div>
-				</li>
-				<li class="span3">
-				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/1.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/8.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -382,7 +342,7 @@
 			  <ul class="thumbnails">
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/2.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/9.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -391,7 +351,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/10.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -400,7 +360,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/4.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/11.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -409,7 +369,47 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/5.jpg" alt=""></a>
+					<a href="product_details.html"><img src="${images}/products/1.jpg" alt=""></a>
+					<div class="caption">
+					  <h5>Product name</h5>
+					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					</div>
+				  </div>
+				</li>
+			  </ul>
+			  </div>
+			   <div class="item">
+			  <ul class="thumbnails">
+				<li class="span3">
+				  <div class="thumbnail">
+					<a href="product_details.html"><img src="${images}/products/2.jpg" alt=""></a>
+					<div class="caption">
+					  <h5>Product name</h5>
+					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a href="product_details.html"><img src="${images}/products/3.jpg" alt=""></a>
+					<div class="caption">
+					  <h5>Product name</h5>
+					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a href="product_details.html"><img src="${images}/products/4.jpg" alt=""></a>
+					<div class="caption">
+					  <h5>Product name</h5>
+					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a href="product_details.html"><img src="${images}/products/5.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -428,7 +428,7 @@
 			  <ul class="thumbnails">
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/6.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="${images}/products/6.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -441,7 +441,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/7.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="${images}/products/7.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -453,7 +453,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/8.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="${images}/products/8.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -465,7 +465,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/9.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="${images}/products/9.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -477,7 +477,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/10.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="${images}/products/10.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -489,7 +489,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/11.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="${images}/products/11.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -535,9 +535,9 @@
 			 </div>
 			<div id="socialMedia" class="span3 pull-right">
 				<h5>SOCIAL MEDIA </h5>
-				<a href="#"><img width="60" height="60" src="themes/images/facebook.png" title="facebook" alt="facebook"/></a>
-				<a href="#"><img width="60" height="60" src="themes/images/twitter.png" title="twitter" alt="twitter"/></a>
-				<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
+				<a href="#"><img width="60" height="60" src="${images}/facebook.png" title="facebook" alt="facebook"/></a>
+				<a href="#"><img width="60" height="60" src="${images}/twitter.png" title="twitter" alt="twitter"/></a>
+				<a href="#"><img width="60" height="60" src="${images}/youtube.png" title="youtube" alt="youtube"/></a>
 			 </div> 
 		 </div>
 		<p class="pull-right">&copy; Bootshop</p>
@@ -559,48 +559,48 @@
 	<div id="hideme" class="themeTitle">Style Selector</div>
 	<div class="themeName">Oregional Skin</div>
 	<div class="images style">
-	<a href="${css}/#" name="bootshop"><img src="themes/switch/images/clr/bootshop.png" alt="bootstrap business templates" class="active"></a>
-	<a href="${css}/#" name="businessltd"><img src="themes/switch/images/clr/businessltd.png" alt="bootstrap business templates" class="active"></a>
+	<a href="${css}/#" name="bootshop"><img src="${switch}/images/clr/bootshop.png" alt="bootstrap business templates" class="active"></a>
+	<a href="${css}/#" name="businessltd"><img src="${switch}/images/clr/businessltd.png" alt="bootstrap business templates" class="active"></a>
 	</div>
 	<div class="themeName">Bootswatch Skins (11)</div>
 	<div class="images style">
-		<a href="${css}/#" name="amelia" title="Amelia"><img src="themes/switch/images/clr/amelia.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="spruce" title="Spruce"><img src="themes/switch/images/clr/spruce.png" alt="bootstrap business templates" ></a>
-		<a href="${css}/#" name="superhero" title="Superhero"><img src="themes/switch/images/clr/superhero.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="cyborg"><img src="themes/switch/images/clr/cyborg.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="cerulean"><img src="themes/switch/images/clr/cerulean.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="journal"><img src="themes/switch/images/clr/journal.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="readable"><img src="themes/switch/images/clr/readable.png" alt="bootstrap business templates"></a>	
-		<a href="${css}/#" name="simplex"><img src="themes/switch/images/clr/simplex.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="slate"><img src="themes/switch/images/clr/slate.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="spacelab"><img src="themes/switch/images/clr/spacelab.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="united"><img src="themes/switch/images/clr/united.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="amelia" title="Amelia"><img src="${switch}/images/clr/amelia.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="spruce" title="Spruce"><img src="${switch}/images/clr/spruce.png" alt="bootstrap business templates" ></a>
+		<a href="${css}/#" name="superhero" title="Superhero"><img src="${switch}/images/clr/superhero.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="cyborg"><img src="${switch}/images/clr/cyborg.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="cerulean"><img src="${switch}/images/clr/cerulean.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="journal"><img src="${switch}/images/clr/journal.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="readable"><img src="${switch}/images/clr/readable.png" alt="bootstrap business templates"></a>	
+		<a href="${css}/#" name="simplex"><img src="${switch}/images/clr/simplex.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="slate"><img src="${switch}/images/clr/slate.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="spacelab"><img src="${switch}/images/clr/spacelab.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="united"><img src="${switch}/images/clr/united.png" alt="bootstrap business templates"></a>
 		<p style="margin:0;line-height:normal;margin-left:-10px;display:none;"><small>These are just examples and you can build your own color scheme in the backend.</small></p>
 	</div>
 	<div class="themeName">Background Patterns </div>
 	<div class="images patterns">
-		<a href="${css}/#" name="pattern1"><img src="themes/switch/images/pattern/pattern1.png" alt="bootstrap business templates" class="active"></a>
-		<a href="${css}/#" name="pattern2"><img src="themes/switch/images/pattern/pattern2.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern3"><img src="themes/switch/images/pattern/pattern3.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern4"><img src="themes/switch/images/pattern/pattern4.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern5"><img src="themes/switch/images/pattern/pattern5.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern6"><img src="themes/switch/images/pattern/pattern6.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern7"><img src="themes/switch/images/pattern/pattern7.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern8"><img src="themes/switch/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern9"><img src="themes/switch/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern10"><img src="themes/switch/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern1"><img src="${switch}/images/pattern/pattern1.png" alt="bootstrap business templates" class="active"></a>
+		<a href="${css}/#" name="pattern2"><img src="${switch}/images/pattern/pattern2.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern3"><img src="${switch}/images/pattern/pattern3.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern4"><img src="${switch}/images/pattern/pattern4.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern5"><img src="${switch}/images/pattern/pattern5.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern6"><img src="${switch}/images/pattern/pattern6.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern7"><img src="${switch}/images/pattern/pattern7.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern8"><img src="${switch}/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern9"><img src="${switch}/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern10"><img src="${switch}/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
 		
-		<a href="${css}/#" name="pattern11"><img src="themes/switch/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern12"><img src="themes/switch/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern13"><img src="themes/switch/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern14"><img src="themes/switch/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern15"><img src="themes/switch/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern11"><img src="${switch}/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern12"><img src="${switch}/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern13"><img src="${switch}/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern14"><img src="${switch}/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern15"><img src="${switch}/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
 		
-		<a href="${css}/#" name="pattern16"><img src="themes/switch/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern17"><img src="themes/switch/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern18"><img src="themes/switch/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern19"><img src="themes/switch/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
-		<a href="${css}/#" name="pattern20"><img src="themes/switch/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern16"><img src="${switch}/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern17"><img src="${switch}/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern18"><img src="${switch}/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern19"><img src="${switch}/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
+		<a href="${css}/#" name="pattern20"><img src="${switch}/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
 		 
 	</div>
 	</div>
