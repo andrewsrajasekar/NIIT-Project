@@ -913,3 +913,7 @@ select,input[type="file"]{height:auto;line-height:normal;}
 .show{display:block;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
+span.icon:before { 
+  font-family: 'Glyphicons Halflings'; 
+  content: "\f015"; 
+}

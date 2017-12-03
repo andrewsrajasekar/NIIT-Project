@@ -6,6 +6,8 @@
 <spring:url var="css" value="/resources/css" />
 <spring:url var="js" value="/resources/js" />
 <spring:url var="images" value="/resources/images" />
+<spring:url var="superhero" value="/resources/superhero" />
+<spring:url var="united" value="/resources/united" />
 
 <c:set var="contextRoot" value="${pageContext.request.contextPath}" />
 
@@ -17,6 +19,7 @@
 <title>Online Shopping - ${title}</title>
 <script>
 	window.menu = '${title}';
+	window.contextRoot = '${contextRoot}'
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
@@ -34,13 +37,18 @@
 <link id="callCss" rel="stylesheet" href="${css}/bootstrap.min.css"
 	media="screen" />
 
-	
-	
-	
-<link href="${css}/base.css" rel="stylesheet" media="screen" />
+
+
+
+
 <!-- Bootstrap style responsive -->
 <link href="${css}/bootstrap-responsive.min.css" rel="stylesheet" />
+
+
+<link href="${css}/dataTables.bootstrap.css" rel="stylesheet" />
+<link href="${css}/base.css" rel="stylesheet" media="screen" />
 <link href="${css}/font-awesome.css" rel="stylesheet" type="text/css">
+
 <!-- Google-code-prettify -->
 <link href="${js}/google-code-prettify/prettify.css" rel="stylesheet" />
 <!-- fav and touch icons -->
@@ -63,58 +71,67 @@
 					<div class="span6">
 						Welcome!<strong> User</strong>
 					</div>
-					<div class="span6">
-						<div class="pull-right">
-							<a href="product_summary.html"><span class="">Fr</span></a> <a
-								href="product_summary.html"><span class="">Es</span></a> <span
-								class="btn btn-mini">En</span> <a href="product_summary.html"><span>&pound;</span></a>
-							<span class="btn btn-mini">$155.00</span> <a
-								href="product_summary.html"><span class="">$</span></a> <a
-								href="product_summary.html"><span
-								class="btn btn-mini btn-primary"><i
-									class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your
-									cart </span> </a>
-						</div>
-					</div>
+
 				</div>
 			</div>
 		</div>
-		<!-- Navbar ================================================== -->
-		<%@include file="./shared/navbar.jsp"%>
 
-		<!-- Page Content -->
 
-		<div class="content">
-			<!--Loading the home content-->
-			<c:if test="${userClickHome == true }">
-				<%@include file="home.jsp"%>
-			</c:if>
-			<!-- Only When User Clicks About -->
-			<c:if test="${userClickAbout == true }">
-				<%@include file="about.jsp"%>
-			</c:if>
-			<!-- Only When User Clicks Contact -->
-			<c:if test="${userClickContact == true }">
-				<%@include file="contact.jsp"%>
-			</c:if>
-			<!-- Only When User Clicks View Products -->
-			<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true }">
-				<%@include file="listProducts.jsp"%>
-			</c:if>		
-		</div>
+	<!-- Navbar ================================================== -->
+	<%@include file="./shared/navbar.jsp"%>
 
-		<!-- Footer ================================================================== -->
-		<%@include file="./shared/footer.jsp"%>
-		<!-- Placed at the end of the document so the pages load faster ============================================= -->
-		<script src="${js}/jquery.js" type="text/javascript"></script>
-		<script src="${js}/bootstrap.min.js" type="text/javascript"></script>
-		<script src="${js}/google-code-prettify/prettify.js"></script>
+	<!-- Page Content -->
 
-		<script src="${js}/bootshop.js"></script>
-		<script src="${js}/jquery.lightbox-0.5.js"></script>
-		<!-- Self Coded JavaScript -->
-		<script src="${js}/myapp.js"></script>
-		<span id="themesBtn"></span>
+	<div class="content">
+		<!--Loading the home content-->
+		<c:if test="${userClickHome == true }">
+			<%@include file="home.jsp"%>
+		</c:if>
+		<!-- Only When User Clicks About -->
+		<c:if test="${userClickAbout == true }">
+			<%@include file="about.jsp"%>
+		</c:if>
+		<!-- Only When User Clicks Contact -->
+		<c:if test="${userClickContact == true }">
+			<%@include file="contact.jsp"%>
+		</c:if>
+		<!-- Only When User Clicks View Products -->
+		<c:if
+			test="${userClickAllProducts == true or userClickCategoryProducts == true }">
+			<%@include file="listProducts.jsp"%>
+		</c:if>
+		<!-- Only When User Clicks Show Product -->
+		<c:if test="${userClickShowProduct == true}">
+			<%@include file="singleProduct.jsp"%>
+		</c:if>
 	</div>
+
+	<!-- Footer ================================================================== -->
+
+
+
+		<%@include file="./shared/footer.jsp"%>
+
+	<!-- Placed at the end of the document so the pages load faster ============================================= -->
+	<script src="${js}/jquery.js" type="text/javascript"></script>
+	<script src="${js}/bootstrap.min.js" type="text/javascript"></script>
+	<!-- DataTable Plugin -->
+	<script src="${js}/jquery.dataTables.js" type="text/javascript"></script>
+
+
+
+
+	<script src="${js}/dataTables.bootstrap.js" type="text/javascript"></script>
+
+
+	<script src="${js}/google-code-prettify/prettify.js"></script>
+
+	<script src="${js}/bootshop.js"></script>
+	<script src="${js}/jquery.lightbox-0.5.js"></script>
+	<!-- Self Coded JavaScript -->
+	<script src="${js}/myapp.js"></script>
+	<span id="themesBtn"></span>
+</div>
+		</div>
 </body>
 </html>
