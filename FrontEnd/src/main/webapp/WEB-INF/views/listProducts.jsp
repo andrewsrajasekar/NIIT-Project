@@ -5,7 +5,7 @@
 		<!-- Would be to display Sidebar -->
 		<div class="col-md-3">
 
-			<%@include file="./shared/sidebar.jsp"%>
+			<%@include file="./shared/sidebar1.jsp"%>
 
 
 
@@ -49,36 +49,47 @@
 			</div>
 
 			<div class="row">
-				<div class="col-xs-12 ">
+				<div class="col-xs-12">
 
-					<table id="productListTable"
-						class="table table-striped table-bordered" class="nav nav-pills">
+					<div class="container-fluid">
+						<div class="table-responsive">
+							<table id="productListTable"
+								class="table table-striped table-bordered" class="nav nav-pills">
 
-						<thead>
+								<thead>
 
-							<tr>
-								<th></th>
-								<th>Name</th>
-								<th>Brand</th>
-								<th>Price</th>
-								<th>Quantity Available</th>
-								<th></th>
-							</tr>
+									<tr>
+										<th></th>
+										<th>Name</th>
+										<th>Brand</th>
+										<th>Price</th>
+										<th>Quantity Available</th>
+										<th></th>
+									</tr>
 
-						</thead>
-						<tfoot>
+								</thead>
+								<tfoot>
 
-							<tr>
-								<th></th>
-								<th>Name</th>
-								<th>Brand</th>
-								<th>Price</th>
-								<th>Quantity Available</th>
-								<th></th>
-							</tr>
+									<tr>
+										<th></th>
+										<th>Name</th>
+										<th>Brand</th>
+										<th>Price</th>
+										<th>Quantity Available</th>
+										<th></th>
+									</tr>
 
-						</tfoot>
-					</table>
+								</tfoot>
+							</table>
+
+
+
+
+						</div>
+
+
+					</div>
+
 
 				</div>
 

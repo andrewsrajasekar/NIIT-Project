@@ -94,6 +94,10 @@
 		margin-left: -30px;
 		*zoom: 1
 	}
+	.row1{
+	margin-left: 0px;
+		*zoom: 1
+	}
 	.row:before, .row:after {
 		display: table;
 		line-height: 0;

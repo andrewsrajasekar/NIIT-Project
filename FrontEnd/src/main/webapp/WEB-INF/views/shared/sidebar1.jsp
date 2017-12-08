@@ -1,6 +1,6 @@
 <div class="list-group">
 
-	<ul id="sideManu" class="nav nav-tabs nav-stacked">
+	<ul id="sideManu" class="nav nav-tabs nav-justified">
 		<c:forEach items="${categories}" var="category">
 			<li><a
 				href="${contextRoot}/show/category/${category.id}/products"

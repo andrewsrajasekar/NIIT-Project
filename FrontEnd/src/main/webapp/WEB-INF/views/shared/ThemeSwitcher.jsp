@@ -1,5 +1,5 @@
 	
-	<!-- Themes switcher section ============================================================================================= -->
+<!-- Themes switcher section ============================================================================================= -->
 <div id="secectionBox">
 <link rel="stylesheet" href="${switch}/themeswitch.css" type="text/css" media="screen" />
 <script src="${switch}/theamswitcher.js" type="text/javascript" charset="utf-8"></script>

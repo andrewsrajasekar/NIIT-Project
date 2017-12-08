@@ -140,7 +140,7 @@ body {
 	margin: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 40px;
 	color: #333;
 	background-color: #fff
 }
@@ -915,7 +915,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	.uneditable-input {
 	display: inline-block;
 	height: 20px;
-	padding: 4px 6px;
+	padding: 6px 6px;
 	margin-bottom: 10px;
 	font-size: 14px;
 	line-height: 20px;
@@ -1561,7 +1561,7 @@ input.search-query {
 	.form-horizontal .input-append {
 	display: inline-block;
 	*display: inline;
-	margin-bottom: 0;
+	margin-bottom: 1;
 	vertical-align: middle;
 	*zoom: 1
 }
@@ -6748,4 +6748,5 @@ hr.soften {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box
-}s
+}
+

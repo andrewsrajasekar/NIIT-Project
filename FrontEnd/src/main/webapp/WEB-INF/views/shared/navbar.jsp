@@ -1,3 +1,4 @@
+
 <div id="logoArea" class="navbar">
 	<a id="smallScreen" data-target="#topMenu" data-toggle="collapse"
 		class="btn btn-navbar"> <span class="icon-bar"></span> <span
@@ -24,6 +25,10 @@
 			<li id="contact" class=""><a href="${contextRoot}/contact">Contact</a></li>
 			<li id="listProducts" class=""><a
 				href="${contextRoot}/show/all/products">View Products</a></li>
+			<security:authorize access="hasAuthority('ADMIN')">
+			<li id="manageProducts" class=""><a
+				href="${contextRoot}/manage/products">Manage Products</a></li>
+				</security:authorize>
 			<li class=""><a href="#login" role="button" data-toggle="modal"
 				style="padding-right: 0"><span class="btn btn-large btn-success">Login</span></a>
 				<div id="login" class="modal hide fade in" tabindex="-1"
@@ -52,5 +57,19 @@
 					</div>
 				</div></li>
 		</ul>
+		<ul class="nav navbar-nav navbar-right">
+		<security:authorize access="isAnonymous()">
+		<li id="register" class=""><a
+				href="${contextRoot}/register">Sign Up</a></li>
+				<li id="login" class=""><a
+				href="${contextRoot}/login">Login</a></li>
+</security:authorize>
+
+		</ul>
 	</div>
 </div>
+<script>
+
+window.userRole = '${userModel.role}';
+
+</script>

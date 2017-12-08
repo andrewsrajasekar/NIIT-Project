@@ -45,7 +45,7 @@
 	<div class="row">
 
 		<!-- Display the Product Image -->
-		<div class="col-xs-12 col-sm-4">
+		<div class="col-xs-121 col-sm-41">
 			<div class="thumbnail">
 
 				<img src="${images}/${product.code}.jpg" class="img img-responsive" />
@@ -56,7 +56,7 @@
 		</div>
 
 		<!-- Display the Product Description -->
-		<div class="col-xs-12 col-sm-8">
+		<div class="col-xs-121 col-sm-81">
 			<h3>${product.name}</h3>
 			<hr />
 			<p>${product.description}</p>
@@ -75,8 +75,9 @@
 					<h6>Quantity Available : ${product.quantity}</h6>
 			</c:otherwise>
 			</c:choose>
+						<security:authorize access="hasAuthority('USER')">
 				<c:choose>
-			
+
 			<c:when test="${product.quantity < 1}">
 					<a href="javascript:void(0)"
 				class="btn btn-success disabled"><strike><span
@@ -88,6 +89,12 @@
 				class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
 			</c:otherwise>
 			</c:choose>
+			</security:authorize>
+			<security:authorize access="hasAuthority('ADMIN')">
+					<a href="${contextRoot}/manage/${product.id}/product"
+				class="btn btn-warning"><span
+				class="glyphicon glyphicon-pencil"></span>Edit</a>
+			</security:authorize>
 			 <a
 				href="${contextRoot}/show/all/products" class="btn btn-primary">Back</a>
 
